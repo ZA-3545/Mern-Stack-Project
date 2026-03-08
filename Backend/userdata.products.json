@@ -1,0 +1,324 @@
+[{
+  "_id": {
+    "$oid": "69a73c3332a9b5b27f112e4f"
+  },
+  "name": "Stride Runner X",
+  "description": "Premium athletic shoes for high performance.",
+  "price": 125,
+  "oldPrice": 160,
+  "category": "Running",
+  "stock": 50,
+  "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+  "rating": 4.8,
+  "badge": "NEW",
+  "bestseller": true,
+  "colors": [
+    "Red",
+    "Blue",
+    "Black"
+  ],
+  "createdAt": {
+    "$date": "2026-03-03T19:53:23.667Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-03T19:53:23.667Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a88d00f929c8dc24c14f02"
+  },
+  "name": "Urban Velocity Pro",
+  "description": "Ultra-lightweight lifestyle sneakers featuring breathable mesh and adaptive cushioning.",
+  "price": 110,
+  "oldPrice": 150,
+  "category": "SNEAKERS",
+  "stock": 20,
+  "img": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a",
+  "rating": 4.7,
+  "badge": "TRENDING",
+  "bestseller": false,
+  "colors": [
+    "bg-slate-200",
+    "bg-zinc-900",
+    "bg-indigo-500"
+  ],
+  "createdAt": {
+    "$date": "2026-03-04T19:50:24.221Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-04T19:50:24.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa65d0598b36a98cf885b3"
+  },
+  "name": "Titan Hoops Pro",
+  "description": "High-top basketball sneakers with explosive energy return and superior ankle support.",
+  "price": 165,
+  "oldPrice": 210,
+  "category": "Basketball",
+  "stock": 28,
+  "img": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.9,
+  "badge": "MVP SELECTION",
+  "bestseller": true,
+  "colors": [
+    "Orange",
+    "Blue",
+    "White"
+  ],
+  "createdAt": {
+    "$date": "2026-03-06T05:27:44.824Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T05:27:44.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa6667598b36a98cf885b7"
+  },
+  "name": "Everyday Nomad",
+  "description": "Minimalist casual sneakers crafted with premium canvas and a cushioned cork insole.",
+  "price": 85,
+  "oldPrice": 230,
+  "category": "Casual",
+  "stock": 21,
+  "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.5,
+  "badge": "ESSENTIAL",
+  "bestseller": true,
+  "colors": [
+    "bg-yellow-100",
+    "bg-stone-500",
+    "bg-emerald-900"
+  ],
+  "createdAt": {
+    "$date": "2026-03-06T05:30:15.832Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T05:30:15.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa69ba598b36a98cf885bb"
+  },
+  "name": "Iron Ridge Boot",
+  "description": "Hand-stitched leather boots with a reinforced toe and weather-resistant finish.",
+  "price": 210,
+  "oldPrice": 275,
+  "category": "Boots",
+  "stock": 18,
+  "img": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=1000",
+  "rating": 4.9,
+  "badge": "PREMIUM",
+  "bestseller": false,
+  "colors": [
+    "bg-orange-900",
+    "bg-yellow-950",
+    "bg-neutral-900"
+  ],
+  "createdAt": {
+    "$date": "2026-03-06T05:44:26.909Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T05:44:26.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa6f46598b36a98cf885c1"
+  },
+  "name": "Apex Sport Sandal",
+  "description": "Premium ergonomic fitness sandals featuring dual-tone matte black straps, a cushioned high-grip contoured sole, and vibrant electric blue accents for a sporty aesthetic.",
+  "price": 65,
+  "oldPrice": 95,
+  "category": "Sandals",
+  "stock": 42,
+  "img": "https://img.drz.lazcdn.com/static/pk/p/94fcf358be0ed3e63eaccd8ce4e2ce99.jpg_960x960q80.jpg_.webp",
+  "rating": 4.8,
+  "badge": "NEW",
+  "bestseller": true,
+  "colors": [
+    "Black/Blue",
+    "Charcoal",
+    "Deep Sea Blue"
+  ],
+  "createdAt": {
+    "$date": "2026-03-06T06:08:06.281Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T06:08:06.281Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa899f942a4f23ebd4739a"
+  },
+  "name": "Roman Sandal",
+  "description": "Premium ergonomic fitness sandals featuring dual-tone matte black straps, a cushioned high-grip contoured sole, and vibrant electric blue accents for a sporty aesthetic.",
+  "price": 75,
+  "oldPrice": 90,
+  "category": "Sandals",
+  "stock": 32,
+  "img": "https://www.parishfootwear.pk/cdn/shop/files/MA279_4_1024x1024.jpg?v=1749141894",
+  "rating": 4,
+  "badge": "SALE",
+  "bestseller": true,
+  "colors": [
+    "Black/Blue",
+    "Charcoal",
+    "Deep Sea Blue"
+  ],
+  "createdAt": {
+    "$date": "2026-03-06T08:00:31.683Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T08:00:31.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa8b0e08a4e775f30c5bdb"
+  },
+  "name": "Elite Court Basketball Shoe",
+  "description": "Professional-grade basketball footwear featuring reinforced ankle support, breathable mesh upper, and a high-grip rubber sole for maximum on-court performance.",
+  "price": 110,
+  "oldPrice": 150,
+  "category": "Basketball",
+  "stock": 18,
+  "img": "https://www.hopkicks.pk/image/cache/catalog/2024/OCT%2024/ISHOES/P2/47/10-1100x1100.jpg",
+  "rating": 4.9,
+  "badge": "SALE",
+  "bestseller": true,
+  "colors": [
+    "Midnight Black",
+    "Neon Green",
+    "White/Gold"
+  ],
+  "createdAt": {
+    "$date": "2026-03-06T08:06:38.078Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T08:06:38.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ad2be824438e1e245805f0"
+  },
+  "name": "Velocity Air Runner",
+  "description": "Ultra-lightweight running shoes featuring breathable knit technology and a carbon-fiber plate for maximum energy return on every stride.",
+  "price": 75,
+  "oldPrice": 110,
+  "category": "Running",
+  "stock": 25,
+  "img": "https://media.istockphoto.com/id/1688015574/photo/white-sneaker-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=gz8bGn7h_eaF4uJGJjdZYYhJDrrigHAygo2Vi8tZjH8=",
+  "rating": 4.8,
+  "badge": "SALE",
+  "bestseller": true,
+  "colors": [
+    "Sonic White",
+    "Volt Green",
+    "Slate Grey"
+  ],
+  "createdAt": {
+    "$date": "2026-03-08T07:57:28.952Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-08T07:57:28.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ad2cae24438e1e24580612"
+  },
+  "name": "Cloud-Step Lifestyle Sneaker",
+  "description": "Designed for all-day wear, these sneakers combine a sleek minimalist aesthetic with ultra-soft cushioning for the perfect urban commute.",
+  "price": 90,
+  "oldPrice": 100,
+  "category": "Running",
+  "stock": 40,
+  "img": "https://images.jdmagicbox.com/comp/def_content/sports-shoe-dealers/13762d06af-sports-shoe-dealers-4-pr86o.jpg",
+  "rating": 5,
+  "badge": "SALE",
+  "bestseller": false,
+  "colors": [
+    "Pure White",
+    "Dusty Rose",
+    "Onyx"
+  ],
+  "createdAt": {
+    "$date": "2026-03-08T08:00:46.738Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-08T08:00:46.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ad2d4d24438e1e2458061e"
+  },
+  "name": "Urban Edge Street Sneaker",
+  "description": "A sophisticated fusion of premium materials and contemporary design, tailored for the fashion-forward individual who values both comfort and a clean, minimalist silhouette.",
+  "price": 120,
+  "oldPrice": 200,
+  "category": "Sneakers",
+  "stock": 12,
+  "img": "https://img.drz.lazcdn.com/static/pk/p/f87a62ce6598799e352b666c50ae6020.jpg_720x720q80.jpg",
+  "rating": 5,
+  "badge": "NEW",
+  "bestseller": false,
+  "colors": [
+    "Off-White",
+    "Midnight Navy",
+    "Charcoal"
+  ],
+  "createdAt": {
+    "$date": "2026-03-08T08:03:25.159Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-08T08:03:25.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ad2f4624438e1e2458062a"
+  },
+  "name": "Everyday Comfort Loafer",
+  "description": "A relaxed casual shoe designed for everyday comfort and effortless style. Featuring soft cushioning, breathable lining, and a flexible sole, it pairs perfectly with jeans, chinos, or relaxed weekend outfits.",
+  "price": 68,
+  "oldPrice": 85,
+  "category": "Casual",
+  "stock": 80,
+  "img": "https://servis.pk/cdn/shop/files/M-DC-0200058ESPRESSO.jpg?v=1756669349",
+  "rating": 4.5,
+  "badge": "NEW",
+  "bestseller": false,
+  "colors": [
+    "Tan Brown",
+    "Charcoal Black",
+    "Light Beige"
+  ],
+  "createdAt": {
+    "$date": "2026-03-08T08:11:50.042Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-08T08:11:50.042Z"
+  },
+  "__v": 0
+}]
