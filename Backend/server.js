@@ -23,7 +23,7 @@ app.use(express.json());
 
 
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("Stride Database Connected"))
+  .then(() => console.log("Step to grow Database Connected"))
   .catch(err => console.log("DB Connection Error: ", err));
 
 
@@ -33,7 +33,7 @@ app.use('/api', authRoutes);
 
 
 app.use(cors({
-  origin: "https://your-netlify-site.netlify.app",
+  origin: 'https://step-to-grow.netlify.app',
  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "x-auth-token", "Authorization"],
   credentials: true
