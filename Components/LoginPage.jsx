@@ -12,8 +12,9 @@ const LoginPage = () => {
   const handleLogin = async (e) => {
     e.preventDefault(); 
     try {
+      
     
-      const response = await axios.post('http://localhost:5000/api/login', {
+      const response = await axios.post('https://mern-stack-project-1-q0q4.onrender.com/api/users', {
         email,
         password
       });

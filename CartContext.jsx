@@ -15,7 +15,7 @@ useEffect(() => {
     if (!token) return; 
 
     try {
-      const res = await axios.get('http://localhost:5000/api/cart', {
+      const res = await axios.get('https://mern-stack-project-1-q0q4.onrender.com/api/cart', {
         headers: { 
           'x-auth-token': token 
         }
@@ -37,7 +37,7 @@ const updateQuantity = async (itemId, newQuantity) => {
     }
     try {
         const res = await axios.put(
-            `http://localhost:5000/api/cart/${itemId}`,
+            `https://mern-stack-project-1-q0q4.onrender.com/api/cart/${itemId}`,
             { quantity: newQuantity },
             { headers: { 'x-auth-token': localStorage.getItem('token') } }
         );
@@ -54,7 +54,7 @@ const addToCart = async (product) => {
   console.log("Product received in Context:", product);
 
   try {
-    const res = await axios.post('http://localhost:5000/api/cart', {
+    const res = await axios.post('https://mern-stack-project-1-q0q4.onrender.com/api/cart', {
 
       productId: product._id || product.productId, 
       quantity: 1,
@@ -78,7 +78,7 @@ const clearCart = async () => {
   if (!token) return;
 
   try {
-    const res = await axios.delete('http://localhost:5000/api/cart', {
+    const res = await axios.delete('https://mern-stack-project-1-q0q4.onrender.com/api/cart', {
       headers: { 'x-auth-token': token }
     });
 
@@ -91,7 +91,7 @@ const clearCart = async () => {
 const removeFromCart = async (itemId) => {
   try {
     const res = await axios.delete(
-      `http://localhost:5000/api/cart/${itemId}`,
+      `https://mern-stack-project-1-q0q4.onrender.com/api/cart/${itemId}`,
       {
         headers: { 'x-auth-token': localStorage.getItem('token') }
       }

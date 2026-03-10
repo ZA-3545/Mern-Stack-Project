@@ -30,6 +30,13 @@ mongoose.connect(process.env.MONGO_URI)
 app.use('/api', authRoutes);
 
 
+
+const cors = require("cors");
+
+app.use(cors({
+  origin: "https://your-netlify-site.netlify.app"
+}));
+
 app.use(cors({
   origin: "http://localhost:5173", 
  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],

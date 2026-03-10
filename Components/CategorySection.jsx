@@ -16,7 +16,7 @@ const CategorySection = () => {
  useEffect(() => {
   const fetchProducts = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/products');
+      const res = await axios.get('https://mern-stack-project-1-q0q4.onrender.com/api/products');
       setProducts(res.data);
     } catch (err) {
       console.error("Error fetching for counts:", err);

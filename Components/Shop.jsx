@@ -9,6 +9,7 @@ import axios from 'axios';
 import { useLocation } from 'react-router-dom';
 import { useWishlist } from '../WishlistContext';
 
+
 const Shop = () => {
 
     const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -111,8 +112,9 @@ const Shop = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-               
-                const res = await axios.get('http://localhost:5000/api/products');
+//                const API_URL = import.meta.env.VITE_API_URL;
+// const res = await fetch(`${API_URL}/api/products`);
+                const res = await axios.get('https://mern-stack-project-1-q0q4.onrender.com/api/products');
                 setProducts(res.data);
                 setLoading(false);
             } catch (err) {
