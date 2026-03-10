@@ -14,7 +14,7 @@ const LoginPage = () => {
     try {
       
     
-      const response = await axios.post('https://mern-stack-project-1-q0q4.onrender.com/api/users', {
+      const response = await axios.post('https://mern-stack-project-1-q0q4.onrender.com/api/users/login', {
         email,
         password
       });
