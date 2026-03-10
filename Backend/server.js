@@ -33,12 +33,9 @@ app.use('/api', authRoutes);
 
 const cors = require("cors");
 
-app.use(cors({
-  origin: "https://your-netlify-site.netlify.app"
-}));
 
 app.use(cors({
-  origin: "http://localhost:5173", 
+  origin: "https://your-netlify-site.netlify.app",
  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "x-auth-token", "Authorization"],
   credentials: true
