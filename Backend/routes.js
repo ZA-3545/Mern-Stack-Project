@@ -37,9 +37,9 @@ router.post('/login', async (req, res) => {
 router.post('/products/add', addProduct);
 
 
+router.get('/products', getAllProducts);
 
 
-router.get('/', getAllProducts);
 router.get('/', auth, async (req, res) => {
   try {
     const user = await User.findById(req.user.id);
